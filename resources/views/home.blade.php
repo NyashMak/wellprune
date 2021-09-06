@@ -1,10 +1,6 @@
 @extends('welcome')
 @section('content')
 
-<div id=name_container>
-  <h1 id="name" style="text-align: center;"> Nyasha Makwavarara </h1>
-  <p id="heading"> The journey of a self taught web developer </p>
-</div>
 
 <div id="introrow">
         <div id="profile_container"> 
@@ -25,12 +21,14 @@
     
 </div>
 
+{{-- Decoration --}}
 <div id="backbox1"> </div>
-
 <div id=backbox2> </div>
+{{-- End of landing page decoration boxes --}}
 
     <div id="portfoliosec">
-        <h2 style="color: rgb(255, 145, 0);">PORTFOLIO</h2>
+        <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"> <strong>PORTFOLIO</strong></h2> <br>
+        <p>Some of the work I have done on my journey!</p> <br>
         <div class="ftblock">
             <div class="portft">
                 
@@ -42,23 +40,24 @@
             </div>
             <div class="portft">
 
-                <div class="nametag">Kulture_Interludes</div>
+                <div class="nametag">Kulture_Int</div>
             </div>
-        </div>
+        </div> <br>
         <p>This is where a snippet of the portfolio will appear</p><br>
-            <button><a href="">View Portfolio</a></button>
+            <button class="btn"><a href="">View Portfolio</a></button>
     </div>
 
     <div id="blogsec">
-        <h3>BLOG</h3>
-        <div>
-            <p>This where a slide of the latest and most popular blog posts will appear</p><br>
-            <button><a href="">Visit Blog</a></button>
-        </div>
+        <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"><strong>FEATURES FROM MY BLOG</strong></h2> <br>
+        <div id="blogcont">
+     
+        </div><br>
+        <p>This where a slide of the latest and most popular blog posts will appear</p><br>
+        <button class="btn"><a href="">Visit Blog</a></button>
     </div>
 
     <div id="aboutsec">
-        <h3>ABOUT</h3>
+        <h2>ABOUT</h2>
         <div>
             <p>This is where a brief insight into the person I am will come <br> i.e Education, Interests, Hobbies etc</p><br>
             <button><a href="">Read Full Story</a></button>

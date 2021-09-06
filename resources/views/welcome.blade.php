@@ -9,7 +9,7 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="style.css">
        
@@ -25,9 +25,9 @@
                 </ul>
             </div>
         </nav> --}}
-        <nav class="navbar navbar-fixed-top navbar-dark bg-dark" style="position: relative;">
+        <nav class="navbar navbar-fixed-top navbar-dark bg-dark" style="position: relative; font-family: 'Special Elite', cursive; ">
             <div id="navdiv" class="container">
-            <ul class="nav nav-tabs nav-justified">
+            <ul class="nav nav-tabs nav-justified border-bottom: 0px none;">
                 <li><a href="">Home</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -35,6 +35,11 @@
             </ul>
             </div>
           </nav>
+
+          <div id=name_container>
+            <h1 id="name" style="text-align: center;"> <strong>Nyasha Makwavarara</strong> </h1>
+            <p id="heading"> The journey of a self taught web developer </p>
+          </div>
 
     <main>
         <div class="container">

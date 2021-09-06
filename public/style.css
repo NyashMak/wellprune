@@ -2,6 +2,14 @@ body {
 
     background: rgb(0,0,0);
     background: linear-gradient(189deg, rgb(43, 42, 42) 26%, rgb(79, 79, 82) 61%, rgb(190, 189, 189) 100%);
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+    
+}
+
+h2 {
+    color: rgb(255, 145, 0);
 }
 
 .navbar {
@@ -13,40 +21,59 @@ nav {
  
 }
 
-a {
-    color: rgb(243, 243, 243);
+.nav-tabs :hover{
+    background-color: rgb(255, 145, 0);
 }
 
-button {
+a {
+    color: rgb(255, 145, 0);
+}
+
+a:hover {
+    color: rgb(255, 145, 0);
+    background-color: rgb(43, 42, 42);
+}
+
+
+/* li:hover {
+    color: rgb(79, 79, 82);
     background-color: rgb(255, 145, 0);
-    color: rgb(32, 32, 32);
+} */
+
+button {
+    background-color: rgb(43, 42, 42);
+    color: rgb(255, 145, 0);
 }
 
 #name {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 0%;
-    padding-top: 50px;
+    margin-right: 0%;
+    padding-top: 200px;
     color: rgb(255, 145, 0);
-    font-family: 'Anton', sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     background-color: rgb(32, 32, 32);
-    height: 150px;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-
+    height: 350px;
+    width: 100%;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    top: -170px;
+    z-index: -1;
 }
 
 #heading {
-    position: absolute;
-    top: 170px;
-    left: 650px;
-    margin-top: 0%;
+    width: 400px;
+    position: relative;
+    top: -235px;
+    margin: 0 auto;
     text-align: center;
     background-color: rgb(32, 32, 32);
-    color: rgb(255, 145, 0);
+    font-size: 18px;
 }
 
 #introrow {
+    position: relative;
+    top: -170px;
     height: 600px;
     width: 700px;
     margin: 0 auto;
@@ -54,7 +81,6 @@ button {
     border: 1px solid rgb(43, 42, 42);
     border-radius: 5px;
     display: flex;
-    color: rgb(172, 169, 169);
     background-color: rgb(43, 42, 42);
 
 }
@@ -87,8 +113,8 @@ button {
     background-color: rgb(255, 145, 0);
     border-radius: 10px;
     position: absolute;
-    top: 535px;
-    left: 428px;
+    top: 560px;
+    left: 437px;
     z-index: -1;
 
 }
@@ -99,19 +125,19 @@ button {
     background-color: rgb(255, 145, 0);
     border-radius: 10px;
     position: absolute;
-    top: 205px;
-    right: 425px;
+    top: 252px;
+    right: 437px;
     z-index: -1;
 }
 
 
 #portfoliosec {
-    height: 350px;
+    height: 500px;
     width: 80%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
-    color: rgb(243, 243, 243);
+    
 }
 
 .ftblock {
@@ -120,17 +146,22 @@ button {
 }
 
 .portft {
-    height: 200px;
+    height: 300px;
     width: 33.333%;
     margin-left: 1%;
     margin-right: 1%;
     border: 1px solid rgb(255, 145, 0);
-    
+    border-radius: 50%;
 }
 
 .nametag {
     height: 20px;
-    width: 100%;
+    width: 45%;
+    margin: 0 auto;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
     background-color: rgb(255, 145, 0);
     position: relative;
     top: 90%;
@@ -138,12 +169,20 @@ button {
 }
 
 #blogsec {
-    height: 350px;
+    height: 500px;
     width: 600px;
     margin: 0 auto;
     margin-top: 200px;
     text-align: center;
-    color: rgb(243, 243, 243);
+    
+    
+}
+
+#blogcont {
+    border: 0.5px solid rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 70%;
+    width: 100%;
 }
 
 #aboutsec {
@@ -152,7 +191,7 @@ button {
     margin: 0 auto;
     margin-top: 200px;
     text-align: center;
-    color: rgb(243, 243, 243);
+    
 }
 
 footer {
