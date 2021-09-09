@@ -17,4 +17,9 @@ class HomeController extends Controller
         return view('home');
 
     }
+
+    public function bloghome () {
+
+        return view('blog.layouts.partials.list');
+    }
 }
