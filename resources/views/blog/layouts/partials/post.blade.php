@@ -39,7 +39,7 @@
     </div> <br>
     <hr>   
 
-</div> 
+</div> <br>
 {{-- End of Post Container --}}
 
 <div id="disquscontainer">

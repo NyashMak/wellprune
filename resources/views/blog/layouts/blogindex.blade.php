@@ -28,7 +28,7 @@
 
         <div id="sidenav" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
             <div id="blogpropic"> 
-                <img src="images/meb.png" alt="" style="width: 70%; height: 275px; border-radius: 50%; margin-left: 50px; margin-top: 10px;">
+                <img src="images/meb.png" alt="" style="width: 70%; height: 260px; border-radius: 50%; margin-left: 50px; margin-top: 10px;">
             </div> <br>
             <div>
                 <p style="font-size: 14px; padding-left: 2%;"> Hi there. My name is Nyasha Makwavarara. Thanks for visiting my blog. For the most part this a documentation of my coding journey to becoming a full-stack web developer. I could use all the help you can give so feel free to drop a comment or share my content if you find it usefull.
