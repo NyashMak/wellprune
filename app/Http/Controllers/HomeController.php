@@ -20,6 +20,13 @@ class HomeController extends Controller
 
     public function bloghome () {
 
-        return view('blog.layouts.partials.list');
+        return view('blog.layouts.partials.home');
     }
+
+    public function blogpost () {
+
+        return view('blog.layouts.partials.post');
+
+    }
+    
 }

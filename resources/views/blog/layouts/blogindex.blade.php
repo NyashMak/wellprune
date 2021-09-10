@@ -15,35 +15,46 @@
        
     </head>
     <body id="blogbody">
-        {{-- <nav id="navbar">
-            <div id="nav-container">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav> --}}
+        
         <nav class="navbar navbar-fixed-top navbar-dark bg-dark" style="position: relative; font-family: 'Special Elite', cursive; ">
             <div id="navdiv" class="container">
             <ul class="nav nav-tabs nav-justified border-bottom: 0px none;">
                 <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             </div>
         </nav>
 
-        <div id="sidenav">
+        <div id="sidenav" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+            <div id="blogpropic"> 
+                <img src="images/meb.png" alt="" style="width: 70%; height: 275px; border-radius: 50%; margin-left: 50px; margin-top: 10px;">
+            </div> <br>
+            <div>
+                <p style="font-size: 14px; padding-left: 2%;"> Hi there. My name is Nyasha Makwavarara. Thanks for visiting my blog. For the most part this a documentation of my coding journey to becoming a full-stack web developer. I could use all the help you can give so feel free to drop a comment or share my content if you find it usefull.
+                </p>
+            </div> <br>
+            <div>
+                <ul style="list-style: none; padding-left: 2%">
+                    <li style="margin-bottom: 3%;"><a href="{{ route('home') }}">Visit Website</a></li>
+                    <li style="margin-bottom: 3%;">About</li>
+                    <li style="margin-bottom: 3%;">Contact Me</li>
+                </ul>
+            </div> <br>
+            <div>
+                <ul style="list-style: none; display: flex; justify-content: space-around;">
+                    <li><a href="">Twit</a></li>
+                    <li><a href="">Linkd</a></li>
+                    <li><a href="">Gith</a></li>
+                </ul>
+            </div>
 
         </div>
 
 
     <main>
         <div class="container" id="blogmain">
-            @yield('topicslist')
+            @yield('content')
         </div>
     </main>
 

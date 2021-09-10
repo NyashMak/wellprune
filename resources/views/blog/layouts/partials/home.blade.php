@@ -1,6 +1,6 @@
 @extends('blog.layouts.blogindex')
 
-@section('topicslist')
+@section('content')
 
 <h1 style="text-align: center;">Wellprune Blog</h1><br>
 <hr>
@@ -15,7 +15,7 @@
     <tbody>
         <tr>
             <td>09 September 2021</td>
-            <td><a href="">Creating the Backend Scaffolding Using Laravel UI</a></td>
+            <td><a href="{{ route('blogpost') }}">Creating the Backend Scaffolding Using Laravel UI</a></td>
         </tr>
     </tbody>
 </table>

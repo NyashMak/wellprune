@@ -5,7 +5,7 @@
 <div id="introrow">
         <div id="profile_container"> 
             <div id="propic"> 
-                <img id="propicme" src="images/wdp.png" alt="" >
+                <img id="propicme" src="images/meb.png" alt="" >
             </div>
             <hr id="hrintro">
             <div id="skills">
@@ -28,7 +28,7 @@
 
     <div id="portfoliosec">
         <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"> <strong>PORTFOLIO</strong></h2> <br>
-        <hr style="border: 1px solid rgb(255, 145, 0); width: 60%; "><br>
+        <hr style="border: 1px solid rgb(32, 32, 32); width: 60%; "><br>
         <p>Some of the work I have done on my journey!</p> <br>
         <div class="ftblock">
             <div class="portft">
