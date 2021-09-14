@@ -64,7 +64,6 @@ button {
     z-index: -1;
     box-shadow: 5px 10px 60px  rgb(0,0,0);
 
-
 }
 
 #heading {
@@ -75,6 +74,15 @@ button {
     text-align: center;
     background-color: rgb(32, 32, 32);
     font-size: 18px;
+}
+
+#adminlink {
+    z-index: +2;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    height: 50px;
+    width: 100px;
 }
 
 #introrow {
@@ -353,3 +361,37 @@ tr {
     margin-left: 20%;
 }
 
+
+/* BEGINNING OF ADMIN STYLLING */
+
+#adminsidenav {
+
+    position: fixed;
+    left: 0%;
+    height: 95%;
+    width: 17%;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 5px 10px 10px  rgb(0,0,0,0.8);
+
+}
+
+#adminmain {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    margin-left: 6%;
+    padding: 2%;
+}
+
+#websitenavlist {
+    
+    padding-left: 2%;
+    list-style: none;
+
+}
+
+#blognavlist {
+
+    padding-left: 2%;
+    list-style: none;
+    
+}

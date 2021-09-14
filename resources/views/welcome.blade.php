@@ -15,16 +15,7 @@
        
     </head>
     <body>
-        {{-- <nav id="navbar">
-            <div id="nav-container">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav> --}} 
+        
         <nav class="navbar navbar-fixed-top navbar-dark bg-dark" style="position: relative; font-family: 'Special Elite', cursive; ">
             <div id="navdiv" class="container">
             <ul class="nav nav-tabs nav-justified border-bottom: 0px none;">
@@ -34,7 +25,11 @@
                 <li><a href="">Contact</a></li>
             </ul>
             </div>
-          </nav>
+        </nav>
+
+        <div id="adminlink">
+            <a href="{{ route('adminhome') }}">Log In</a>
+        </div>
 
           <div id=name_container>
             <h1 id="name" style="text-align: center;"> <strong>Nyasha Makwavarara</strong> </h1>
