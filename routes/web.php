@@ -21,3 +21,5 @@ Route::get('blogindex', [HomeController::class, 'bloghome'])->name('bloghome');
 Route::get('post', [HomeController::class, 'blogpost'])->name('blogpost');
 
 Route::get('adminindex', [HomeController::class, 'adminindex'])->name('adminhome');
+
+Route::get('editintro', [HomeController::class, 'editsiteintro'])->name('editsiteintro');

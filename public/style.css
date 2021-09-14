@@ -389,9 +389,48 @@ tr {
 
 }
 
+.asidenavlist {
+    margin-bottom: 5%;
+    
+}
+
+.asidenavlist a {
+    color: rgb(243, 243, 243);
+} 
+
+.asidenavlist:hover a:hover {
+    padding-left: 5%;
+    transition: .1s;
+
+    text-decoration: none;
+    background-color: none;
+    transition: 0.5s;
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+    
+}
+
+
 #blognavlist {
 
     padding-left: 2%;
     list-style: none;
     
+}
+
+#siteintroform {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#siteintroform .btn{
+    background-color: rgb(79, 79, 82);
+    color: rgb(255, 145, 0);
+}
+
+#siteintroform .btn:hover{
+    transition: .1s;
+    font-size: 16px;
+    background-color: rgb(255, 145, 0);
+    color: rgb(243, 243, 243);
 }

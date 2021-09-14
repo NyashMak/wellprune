@@ -20,7 +20,7 @@
             <div id="navdiv" class="container" style="display: flex;">
 
                 <ul class="nav nav-tabs nav-justified border-bottom: 0px none;">
-                    <li><a href="">Home</a></li>
+                    <li><a href="{{ route('adminhome') }}">Home</a></li>
                     <li><a href="{{ route('home') }}">Website</a></li>
                     <li><a href="{{ route('bloghome') }}">Blog</a></li>
                 </ul>
@@ -39,13 +39,13 @@
               
               <div>
                     <ul id="websitenavlist">
-                        <li><a href="">Intro Section</a></li>
-                        <li><a href="">Portfolio Section</a></li>
-                        <li><a href="">Blog Features Section</a></li>
-                        <li><a href="">About Section</a></li>
-                        <li><a href="">Footer Section</a></li>
+                        <li class="asidenavlist"><a href="{{ route('editsiteintro') }}">Intro Section</a></li>
+                        <li class="asidenavlist"><a href="">Portfolio Section</a></li>
+                        <li class="asidenavlist"><a href="">Blog Features Section</a></li>
+                        <li class="asidenavlist"><a href="">About Section</a></li>
+                        <li class="asidenavlist"><a href="">Footer Section</a></li>
                     </ul>
-              </div>
+              </div><br>
             </div>
             
             <hr><br>
@@ -54,11 +54,11 @@
 
                 <div>
                     <ul id="blognavlist">
-                        <li><a href="">Posts</a></li>
-                        <li><a href="">Blog Intro Section</a></li>
-                        <li><a href="">About Blog Section</a></li>
-                        <li><a href="">Contact Me Section</a></li>
-                        <li><a href="">Users</a></li>
+                        <li class="asidenavlist"><a href="">Posts</a></li>
+                        <li class="asidenavlist"><a href="">Blog Intro Section</a></li>
+                        <li class="asidenavlist"><a href="">About Blog Section</a></li>
+                        <li class="asidenavlist"><a href="">Contact Me Section</a></li>
+                        <li class="asidenavlist"><a href="">Users</a></li>
                     </ul>
                 </div>
             </div>

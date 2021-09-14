@@ -33,4 +33,9 @@ class HomeController extends Controller
 
         return view('admin.adminhome');
     }
+
+    public function editsiteintro () {
+
+        return view('admin.website.introsection');
+    }
 }
