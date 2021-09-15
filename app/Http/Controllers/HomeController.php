@@ -38,4 +38,21 @@ class HomeController extends Controller
 
         return view('admin.website.introsection');
     }
+
+    public function editsiteabout () {
+
+        return view('admin.website.aboutsection');
+
+    }
+
+    public function editfooter () {
+
+        return view('admin.website.footersection');
+    }
+
+    public function posts () {
+
+        return view('admin.blog.posts');
+    }
+
 }

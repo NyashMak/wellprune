@@ -3,7 +3,7 @@ body {
     background: rgb(0,0,0);
     background: linear-gradient(189deg, rgb(43, 42, 42) 26%, rgb(79, 79, 82) 61%, rgb(190, 189, 189) 100%);
     font-family: 'Special Elite', cursive;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(243, 243, 243);
     
 }
@@ -433,4 +433,22 @@ tr {
     font-size: 16px;
     background-color: rgb(255, 145, 0);
     color: rgb(243, 243, 243);
+}
+
+#posts-container {
+    margin-left: -1%;
+    margin-right: -3%;
+    padding-right: 0px;
+    width: 100%;
+}
+
+#poststable .btn {
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+}
+
+#poststable td {
+    padding-left: 2px;
+    border: 0.5px solid rgb(79, 79, 82);
 }

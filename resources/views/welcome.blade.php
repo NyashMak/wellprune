@@ -20,8 +20,8 @@
             <div id="navdiv" class="container">
             <ul class="nav nav-tabs nav-justified border-bottom: 0px none;">
                 <li><a href="">Home</a></li>
-                <li><a href="{{ route('bloghome') }}">Blog</a></li>
-                <li><a href="">Portfolio</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Resume</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             </div>

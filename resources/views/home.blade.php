@@ -70,7 +70,7 @@
             </p>
         </div><br>
         <p>This where a slide of the latest and most popular blog posts will appear</p>
-        <button class="btn"><a href="">Visit Blog</a></button>
+        <button class="btn"><a href="{{ route('bloghome') }}">Visit Blog</a></button>
     </div>
     <div id="backbox4"></div>
 
