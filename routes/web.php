@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\BlogHomeController;
+use App\Http\Controllers\AdminPortalController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,18 +16,30 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+// BEGINNING OF WEBSITE ROUTING
 Route::get('/', [HomeController::class, 'index'])->name('home');
-
-Route::get('blogindex', [HomeController::class, 'bloghome'])->name('bloghome');
-
-Route::get('post', [HomeController::class, 'blogpost'])->name('blogpost');
-
-Route::get('adminindex', [HomeController::class, 'adminindex'])->name('adminhome');
 
 Route::get('editintro', [HomeController::class, 'editsiteintro'])->name('editsiteintro');
 
 Route::get('editabout', [HomeController::class, 'editsiteabout'])->name('editsiteabout');
 
 Route::get('editfooter', [HomeController::class, 'editfooter'])->name('editfooter');
+//END OF WEBSITE ROUTING
 
-Route::get('posts', [HomeController::class, 'posts'])->name('posts');
+
+
+//BEGINNING OF BLOG SITE ROUTING
+Route::get('blogindex', [BlogHomeController::class, 'bloghome'])->name('bloghome'); //This route directs you to the Blog Landing Page via the BlogHomeController
+
+Route::get('post', [BlogHomeController::class, 'blogpost'])->name('blogpost');
+//END OF BLOG SITE ROUTING
+
+
+
+
+//BEGINNING OF ADMIN PORTAL ROUTING
+Route::get('adminindex', [AdminPortalController::class, 'adminindex'])->name('adminhome');
+
+
+Route::get('posts', [AdminPortalController::class, 'posts'])->name('posts');
+//END OF ADMIN PORTAL ROUTING

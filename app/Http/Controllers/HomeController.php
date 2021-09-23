@@ -18,22 +18,6 @@ class HomeController extends Controller
 
     }
 
-    public function bloghome () {
-
-        return view('blog.layouts.partials.home');
-    }
-
-    public function blogpost () {
-
-        return view('blog.layouts.partials.post');
-
-    }
-    
-    public function adminindex () {
-
-        return view('admin.adminhome');
-    }
-
     public function editsiteintro () {
 
         return view('admin.website.introsection');
@@ -50,9 +34,6 @@ class HomeController extends Controller
         return view('admin.website.footersection');
     }
 
-    public function posts () {
-
-        return view('admin.blog.posts');
-    }
+    
 
 }
