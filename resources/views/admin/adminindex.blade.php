@@ -52,7 +52,7 @@
 
                 <div>
                     <ul id="blognavlist">
-                        <li class="asidenavlist"><a href="{{ route('posts') }}">Posts</a></li>
+                        <li class="asidenavlist"><a href="{{ route('listadminposts') }}">Posts</a></li>
                         <li class="asidenavlist"><a href="">Blog Intro Section</a></li>
                         <li class="asidenavlist"><a href="">About Blog Section</a></li>
                         <li class="asidenavlist"><a href="">Contact Me Section</a></li>

@@ -13,10 +13,14 @@
         </tr>
     </thead>
     <tbody>
+
+        @foreach ( $posts as $post)
         <tr>
-            <td>09 September 2021</td>
-            <td><a href="{{ route('blogpost') }}">Creating the Backend Scaffolding Using Laravel UI</a></td>
-        </tr>
+            <td>{{ $post->created_at }}</td>
+            <td><a href="{{ route('blogpost') }}">{{ $post->topic }}</a></td>
+        </tr>    
+        @endforeach
+        
     </tbody>
 </table>
 

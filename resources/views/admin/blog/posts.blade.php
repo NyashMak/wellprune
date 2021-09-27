@@ -25,22 +25,28 @@
                 <th>Action</th>
             </tr>
 
+
+            @foreach ( $posts as $post)
             <tr>
-                <td>001</td>
-                <td><img src="" alt="Cover Image"></td>
-                <td>Ctreating Backend Layout for my blog</td>
-                <td>This is where a snippet of the content will appear</td>
-                <td>Laravel, PHP, HTML, CSS</td>
-                <td>Link to repository if available</td>
-                <td>09/09/21</td>
-                <td>09/09/21</td>
-                <td>12</td>
+                <td>{{ $post->post_id }}</td>
+                <td><img src="" alt="Cover Image">{{ $post->coverimage }}</td>
+                <td>{{ $post->topic }}</td>
+                <td>{{ $post->content }}</td>
+                <td>{{ $post->tags }}</td>
+                <td>{{ $post->link }}</td>
+                <td>{{ $post->created_at }}</td>
+                <td>{{ $post->updated_at }}</td>
+                <td>{{ $post->comments }}</td>
                 <td>
                     <button class="btn" href="">View</button>
                     <button class="btn" href="">Edit</button>
                     <button class="btn" href="">Delete</button>
                 </td>
             </tr>
+
+            @endforeach
+            
+
         </table>
     </div>
     

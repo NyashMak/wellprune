@@ -23,6 +23,7 @@ class CreatePostsTable extends Migration
             $table->text('link');
             $table->timestamps();
             $table->integer('comments');
+            
         });
     }
 

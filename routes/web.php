@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BlogHomeController;
 use App\Http\Controllers\AdminPortalController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,5 +42,8 @@ Route::get('post', [BlogHomeController::class, 'blogpost'])->name('blogpost');
 Route::get('adminindex', [AdminPortalController::class, 'adminindex'])->name('adminhome');
 
 
-Route::get('posts', [AdminPortalController::class, 'posts'])->name('posts');
+
+// Posts Routing in Admin Portal
+
+Route::get('listadminposts', [PostController::class, 'listadminposts'])->name('listadminposts');
 //END OF ADMIN PORTAL ROUTING

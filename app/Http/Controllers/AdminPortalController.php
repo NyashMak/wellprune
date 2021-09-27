@@ -11,10 +11,5 @@ class AdminPortalController extends Controller
         return view('admin.adminhome');
     }
 
-    // This function returns all blog posts to the Admin Portal 
-    public function posts () {
-
-        return view('admin.blog.posts');
-    }
     
 }
