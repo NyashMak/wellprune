@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use Nette\Utils\Html;
 
 class PostController extends Controller
 {
@@ -27,15 +28,17 @@ class PostController extends Controller
         //handles action from the newpost form to create new post and store in DB
     }
 
-    public function editpost () {
-        // returns view with form to update post
+    public function editpost ($post) {
+        // returns view with form to update post $post
+        // $postID = $post;
+        return view('admin.blog.editpost');
     }
 
-    public function updatepost () {
+    public function updatepost ($post) {
         // handles action from edit post form to update the selected post in the Posts Table
     }
 
-    public function deletepost () {
+    public function deletepost ($post) {
         // handles action to delete the selected post from the DB entirely
     }
 

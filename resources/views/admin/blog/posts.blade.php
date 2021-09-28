@@ -39,7 +39,11 @@
                 <td>{{ $post->comments }}</td>
                 <td>
                     <button class="btn" href="">View</button>
-                    <button class="btn" href="">Edit</button>
+                    <a href="{{ route('editpost', $post->post_id) }}"><button class="btn">Edit</button></a>
+
+                    {{-- <a href="{{ route('pages.update.view', $call->id) }}">update</a> --}}
+                    {{-- ('profile', ['id' => 1]); --}}
+
                     <button class="btn" href="">Delete</button>
                 </td>
             </tr>

@@ -39,13 +39,16 @@ Route::get('post', [BlogHomeController::class, 'blogpost'])->name('blogpost');
 
 
 //BEGINNING OF ADMIN PORTAL ROUTING
-Route::get('adminindex', [AdminPortalController::class, 'adminindex'])->name('adminhome');
+Route::get('/adminindex', [AdminPortalController::class, 'adminindex'])->name('adminhome');
 
 
 
 // Posts Routing in Admin Portal
+Route::get('/posts', [PostController::class, 'listadminposts'])->name('listadminposts');
 
-Route::get('listadminposts', [PostController::class, 'listadminposts'])->name('listadminposts');
+Route::get('/createpost', [PostController::class, 'addpost'])->name('addpost');
+Route::post('/createpost', [PostController::class, 'createpost'])->name('createpost');
 
-Route::get('\admin\blog\addpost', [PostController::class, 'addpost'])->name('addpost');
+Route::get('editpost/{post}', [PostController::class, 'editpost'])->name('editpost');
+
 //END OF ADMIN PORTAL ROUTING
