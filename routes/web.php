@@ -46,4 +46,6 @@ Route::get('adminindex', [AdminPortalController::class, 'adminindex'])->name('ad
 // Posts Routing in Admin Portal
 
 Route::get('listadminposts', [PostController::class, 'listadminposts'])->name('listadminposts');
+
+Route::get('\admin\blog\addpost', [PostController::class, 'addpost'])->name('addpost');
 //END OF ADMIN PORTAL ROUTING

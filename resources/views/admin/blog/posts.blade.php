@@ -7,7 +7,7 @@
     <hr>
 
     <div id="allposts">
-        <button class="btn" href="">Add Post</button>
+        <a href="{{ route('addpost') }}"><button class="btn">Add Post</button></a>
     </div><br>
 
     <div id="poststable">

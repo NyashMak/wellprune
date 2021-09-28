@@ -18,8 +18,9 @@ class PostController extends Controller
 
     }
 
-    public function newpost() {
+    public function addpost() {
         //returns view with form to add a new post to the Posts Table
+        return view('admin.blog.addpost');
     }
 
     public function createpost() {
