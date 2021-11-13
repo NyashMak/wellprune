@@ -31,6 +31,7 @@ class PostController extends Controller
     public function editpost ($post) {
         // returns view with form to update post $post
         // $postID = $post;
+        // $postID = 
         return view('admin.blog.editpost');
     }
 
