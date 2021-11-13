@@ -49,6 +49,6 @@ Route::get('/posts', [PostController::class, 'listadminposts'])->name('listadmin
 Route::get('/createpost', [PostController::class, 'addpost'])->name('addpost');
 Route::post('/createpost', [PostController::class, 'createpost'])->name('createpost');
 
-Route::get('editpost/{post}', [PostController::class, 'editpost'])->name('editpost');
+Route::get('editpost/{postID}', [PostController::class, 'editpost'])->name('editpost');
 
 //END OF ADMIN PORTAL ROUTING

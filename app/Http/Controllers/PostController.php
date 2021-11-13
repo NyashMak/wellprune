@@ -28,11 +28,12 @@ class PostController extends Controller
         //handles action from the newpost form to create new post and store in DB
     }
 
-    public function editpost ($post) {
-        // returns view with form to update post $post
-        // $postID = $post;
-        // $postID = 
-        return view('admin.blog.editpost');
+    public function editpost ($postID) {
+        $postDB = Post::where('post_id', $postID)->first();
+        
+        return view('admin.blog.editpost', ['postDB'=>$postDB]);
+
+        // , ['postDB'=>$postDB]
     }
 
     public function updatepost ($post) {
