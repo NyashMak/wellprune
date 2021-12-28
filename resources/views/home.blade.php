@@ -3,20 +3,21 @@
 
 
 <div id="introrow">
+
+    <div id="intro">
+        <p>Hi, my name is <span id="introName">Nyasha Makwavarara</span><p> <br>
+        <p>I am a self taught web developer, with a strong BackEnd Development background. I consider myself a creative problem solver and so most of my days are filled with logical thinking and code debugging. I also believe in good UI Designing and FrontEnd Development. </p> <br>
+        <h4 style="text-align: center;">SKILLSET</h4> 
+        <p style="text-align: center;">PHP, Laravel, MySQL, FileMaker Pro 19, Javascript, React, Vue JS, CSS, Bootstrap, HTML</p><br>
+        
+        <button id="projectsBTN" style="margin-left:38%; border-radius:25px; background-color: #393E46; width:150px; height:50px">My Projects</button>
+
+        </div>
+        
         <div id="profile_container"> 
             <div id="propic"> 
                 <img id="propicme" src="images/meb.png" alt="" >
             </div>
-            <hr id="hrintro">
-            <div id="skills">
-                <h4 style="text-align: center;">SKILLSET</h4>
-                <p style="text-align: center;">PHP, Laravel, MySQL, Bootstrap, Javascript</p>
-
-            </div>
-        </div>
-
-        <div id="intro">
-        <p>I am self taught web developer, lorem ipsum</p>
         </div>
     
 </div>
@@ -25,9 +26,9 @@
 <div id="backbox1"> </div>
 <div id=backbox2> </div>
 {{-- End of landing page decoration boxes --}}
-
+{{-- 
     <div id="portfoliosec">
-        <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"> <strong>PORTFOLIO</strong></h2> <br>
+        <h2 style="color: rgb(255, 145, 0);"> <strong>PORTFOLIO</strong></h2> <br>
         <hr style="border: 1px solid rgb(32, 32, 32); width: 60%; "><br>
         <p>Some of the work I have done on my journey!</p> <br>
         <div class="ftblock">
@@ -48,7 +49,7 @@
         <p>This is where a snippet of the portfolio will appear</p><br>
             <button class="btn"><a href="">View Portfolio</a></button>
     </div>
-    <div id="backbox3"></div>
+    <div id="backbox3"></div> --}}
 
     <div id="blogsec">
         <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"><strong>FEATURES FROM MY BLOG</strong></h2> <br>
