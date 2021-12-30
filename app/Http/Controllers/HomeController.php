@@ -18,6 +18,21 @@ class HomeController extends Controller
 
     }
 
+    public function resume () {
+
+        return view('resume');
+    }
+
+    public function projects () {
+
+        return view('projects');
+    }
+
+    public function contact () {
+
+        return view('contact');
+    }
+
     public function editsiteintro () {
 
         return view('admin.website.introsection');

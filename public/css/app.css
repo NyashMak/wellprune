@@ -16,48 +16,62 @@ margin-bottom: 1px;
 nav {
     /* background-color: rgb(32, 32, 32); */
     /* background: #242424; */
-    background: #393E46;
- 
+    /* background: #393E46; this is the last background used*/
+    height: 100px;
+}
+
+#homelink {
+    margin-right: 0%;
 }
 
 #navDiv {
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
+    font-weight: bold;
 }
 
-#navUl {
+.navUl {
     display: flex;
     justify-content: space-evenly;
     list-style: none;    
 }
 
-#homelink {
-    margin-right: 25%;
+.navLi {
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-#navLi {
-    list-style: none;
-    margin-left: 25%;
-    margin-right: 25%;
-}
 
 a {
-    color: white;
+    /* color: white; */
+    color: #393E46;
+    transition: 0.2s;
 }
 
 a:hover {
     color: #393E46;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: olive solid 5px;
 }
 
+.socLi {
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.socLi a:hover {
+position: relative;
+bottom: 15%;
+border-bottom: none;
+}
 
 button {
     background-color: rgb(43, 42, 42);
     /* background-color: rgb(255, 145, 0); */
-}
-
-#projectsBTN {
-    box-shadow: 0 0 20px #747474;
 }
 
 #heading {
@@ -95,6 +109,7 @@ button {
     /* box-shadow: 5px 10px 40px  rgb(0,0,0); */
     /* box-shadow: -20px 10px 45px #747474;   */
     box-shadow: -20px -20px 60px #ffffff;
+       
 }
 
 #intro {
@@ -105,20 +120,40 @@ button {
     height: auto;
 }
 
+#introName {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#projectsBTN {
+    margin-left:38%; 
+    border-radius: 5px; 
+    background-color: olive; 
+    width:150px; 
+    height:50px;
+    color: #ffffff;
+    box-shadow: 0 0 20px #747474;
+    transition: 0.2s;
+}
+
+#projectsBTN:hover { 
+    margin-left:37%; 
+    background-color: olive; 
+    width:160px; 
+    height:60px;
+    color: #ffffff;
+    box-shadow: 1px 1px 20px rgb(192, 192, 5);
+}
+
 #propicme {
     height: 500px;
     width: 430px;
     padding: 0px;
     border-radius: 25%;
-    margin-left: 270px;
-    
-    
+    margin-left: 245px;
+    opacity: 0.5;
 }
 
-#introName {
-    font-size: 50px;
-    font-weight: bolder;
-}
 
 
 #portfoliosec {

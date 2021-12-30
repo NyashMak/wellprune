@@ -19,6 +19,10 @@ use App\Http\Controllers\PostController;
 
 // BEGINNING OF WEBSITE ROUTING
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/resume', [HomeController::class, 'resume'])->name('resume');
+Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
 
 Route::get('editintro', [HomeController::class, 'editsiteintro'])->name('editsiteintro');
 

@@ -6,11 +6,11 @@
 
     <div id="intro">
         <p>Hi, my name is <span id="introName">Nyasha Makwavarara</span><p> <br>
-        <p>I am a self taught web developer, with a strong BackEnd Development background. I consider myself a creative problem solver and so most of my days are filled with logical thinking and code debugging. I also believe in good UI Designing and FrontEnd Development. </p> <br>
-        <h4 style="text-align: center;">SKILLSET</h4> 
+        <p>I am a full-stack web developer based in Cape Town, South Africa with a strong BackEnd Development background. I enjoy taking complex problems and turning them into user friendly web applications and websites to help businesses do better internally and online. I always strive to write elegant, efficient and easy to maintain code </p> <br>
+        <h4 style="text-align: center; font-weight:bold;">SKILLSET</h4> 
         <p style="text-align: center;">PHP, Laravel, MySQL, FileMaker Pro 19, Javascript, React, Vue JS, CSS, Bootstrap, HTML</p><br>
         
-        <button id="projectsBTN" style="margin-left:38%; border-radius:25px; background-color: #393E46; width:150px; height:50px">My Projects</button>
+        <button id="projectsBTN" >My Projects</button>
 
         </div>
         
@@ -19,13 +19,10 @@
                 <img id="propicme" src="images/meb.png" alt="" >
             </div>
         </div>
+
     
 </div>
 
-{{-- Decoration --}}
-<div id="backbox1"> </div>
-<div id=backbox2> </div>
-{{-- End of landing page decoration boxes --}}
 {{-- 
     <div id="portfoliosec">
         <h2 style="color: rgb(255, 145, 0);"> <strong>PORTFOLIO</strong></h2> <br>
@@ -52,7 +49,7 @@
     <div id="backbox3"></div> --}}
 
     <div id="blogsec">
-        <h2 style="color: rgb(255, 145, 0); font-family: 'Special Elite', cursive;"><strong>FEATURES FROM MY BLOG</strong></h2> <br>
+        <h2><strong>FEATURES FROM MY BLOG</strong></h2> <br>
         <div id="blogcont">
             <div id="bloghead">
                 
@@ -72,15 +69,6 @@
         </div><br>
         <p>This where a slide of the latest and most popular blog posts will appear</p>
         <button class="btn"><a href="{{ route('bloghome') }}">Visit Blog</a></button>
-    </div>
-    <div id="backbox4"></div>
-
-    <div id="aboutsec">
-        <h2>ABOUT</h2>
-        <div>
-            <p>This is where a brief insight into the person I am will come <br> i.e Education, Interests, Hobbies etc</p><br>
-            <button><a href="">Read Full Story</a></button>
-        </div>
     </div>
 
 
